@@ -1,0 +1,16 @@
+.notEaten {
+	float: left;
+}
+
+.eaten{
+	float: right;
+}
+
+.headEaten{
+	float: right;
+}
+
+.addBurger {
+	clear: both;
+	align-content: center;
+}
