@@ -29,9 +29,6 @@ router.put('/burgers/update/:id', function (req, res) {
 	console.log('condition', condition);
 
 	burger.update({ devoured: req.body.devoured }, condition, function () {
-		if (this.burger_name == false) {
-			console.log("good");
-		}
 		res.redirect('/burgers');
 	});
 });

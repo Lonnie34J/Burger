@@ -4,6 +4,7 @@
 
 .eaten{
 	float: right;
+	clear: right;
 }
 
 .headEaten{
